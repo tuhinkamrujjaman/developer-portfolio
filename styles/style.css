@@ -51,6 +51,9 @@
 .item-description{
     font-weight: bold;
 }
+.text-center {
+    text-align: center;
+}
 /* Header Section Styles Starts */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -124,4 +127,19 @@ main section{
     margin-top: 40px;
 }
 /* About Section Styles Ends */
+/* Skills Section Styles Starts */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Skills Section Styles Ends */
 /* Main Section Styles Ends */
