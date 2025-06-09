@@ -142,4 +142,24 @@ main section{
     font-weight: bold;
 }
 /* Skills Section Styles Ends */
+/* Resume Section Styles Starts */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-button{
+    margin-top: 30px;
+}
 /* Main Section Styles Ends */
